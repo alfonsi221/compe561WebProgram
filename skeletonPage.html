@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="stylePage.css">
 </head>
 <body>
-	<div class="header">
+    <div class="header">
         <h1>Gencomps</h1>
     </div>
 
@@ -12,8 +12,24 @@
         <a href="#">Home</a>
         <a href="#">Contact</a>
         <a href="#">About</a>
-        <a href="#">Parts</a>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Parts
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <b>Cases  </b>
+                <b>
+                    CPU's  <b />
+                    <b>GPU's  </b>
+                    <b>Storage  </b>
+                    <b>Cooling  </b>
+                    <b>Power Supply</b>
+            </div>
+        </div>
         <a href="#" style="float:right">Purchased</a>
+        <input type="text" placeholder="Search.." style="float:right">
+
     </div>
 </body>
 

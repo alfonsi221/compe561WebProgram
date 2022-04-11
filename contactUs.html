@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="stylePage.css">
 </head>
 <body>
-	<div class="header">
+    <div class="header">
         <h1>Gencomps</h1>
     </div>
 
@@ -12,39 +12,58 @@
         <a href="#">Home</a>
         <a href="#">Contact</a>
         <a href="#">About</a>
-        <a href="#">Parts</a>
-        <a href="#" style="float:right">Purchased</a>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Parts
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <b>Cases  </b>
+                <b>
+                    CPU's  <b />
+                    <b>GPU's  </b>
+                    <b>Storage  </b>
+                    <b>Cooling  </b>
+                    <b>Power Supply</b>
+            </div>
+        </div>
+        <a href="#" style="float:right">Sign In</a>
+        <input type="text" placeholder="Search.." style="float:right">
+
     </div>
-	<h2>Contact Us</h2>
-	<div class="row">
+    <h2>Contact Us</h2>
+    <div class="row">
         <div class="leftcolumn">
             <div class="card">
                 <h3>Submit your questions regarding your orders below:</h3>
                 <form>
-  			<label for="name">Name:</label>
-  			<input type="text" id="name" name="name"><br><br>
-  			<label for="Email">Email:</label>
-  			<input type="text" id="Email" name="Email"><br><br>
-			<label for="Subject">Subject:</label>
-  			<input type="text" id="Subject" name="Subject"><br><br>
-			<label for="Cpmments">Comments:</label><br>
-			<textarea name="message" rows="15" cols="30">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="Email">Email:</label>
+                    <input type="text" id="Email" name="Email"><br><br>
+                    <label for="Subject">Subject:</label>
+                    <input type="text" id="Subject" name="Subject"><br><br>
+                    <label for="Cpmments">Comments:</label><br>
+                    <textarea name="message" rows="15" cols="30">
 			</textarea><br>
-			<input type="submit" value="Submit">
-		</form>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </div>
-	</div>
         <div class="rightcolumn">
-		<h4 style="font-size:110%;">Buissness Contact Information</h4>
-		<p1>Any questions for any buissness inqueries can be sent to:<br><br>
-		Gencomps Office:<br>
-		Email: buisness_office@gencomps.com
-		<br>
-		<br>
-		</p1>
-		<h5 style="font-size:110%;">Customer Service</h5>
-		<p2>Customer service related matters can be emailed to:<br>
-		Email: coustomer_service@gencomps.com</p2>
+            <h4 style="font-size:110%;">Buissness Contact Information</h4>
+            <p1>
+                Any questions for any buissness inqueries can be sent to:<br><br>
+                Gencomps Office:<br>
+                Email: buisness_office@gencomps.com
+                <br>
+                <br>
+            </p1>
+            <h5 style="font-size:110%;">Customer Service</h5>
+            <p2>
+                Customer service related matters can be emailed to:<br>
+                Email: coustomer_service@gencomps.com
+            </p2>
         </div>
     </div>
 </body>
