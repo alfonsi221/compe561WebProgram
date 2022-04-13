@@ -148,3 +148,9 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+table, th, td {
+    border: 1px solid black;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
