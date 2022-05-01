@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="stylePage.css">
+    
 </head>
 <body>
-
     <div class="header">
         <h1>Gencomps</h1>
     </div>
@@ -13,44 +14,30 @@
         <a href="website_homepage.html">Home</a>
         <a href="contactUs.html">Contact</a>
         <a href="aboutUs.html">About</a>
-        <a href ="parts.html">Parts</a>
+        <a href="parts.html">Parts</a>
+	  <a href="shoppingHistory.html" style="float:right">Cart</a>
         <a href="sign_in.html" style="float:right">Sign In</a>
         <input type="text" placeholder="Search.." style="float:right">
 
     </div>
-
-    <div class="row">
-        <div class="leftcolumn">
-            <div class="card">
-                <h2>Trending Cases</h2>
-                <img src="case_coverpage.jpg" style="height:200px;width:200px">
-                <p>A sleek carbon fiber case will good oscillation to keep your PC nice and cool.</p>
-                <button class="button button1">Buy</button>
-            </div>
-            <div class="card">
-                <h2>Chilling Liquid Coolers</h2>
-                <img src="colling_coverpage.jpg" style="height:200px;width:200px">
-                <p>Run top of the line games without fear of overheating your PC with our new Liquid Cooled CPU coolers</p>
-                <button class="button button1">Buy</button>
-            </div>
-        </div>
-        <div class="rightcolumn">
-            <div class="card">
-                <h2>Top of the Line GPU's</h2>
-                <img src="gpu_coverpage.jpg" style="height:200px;width:200px">
-                <p>Want to reach play games you love on high graphics? Check out out new stock of top GPU's</p>
-                <button class="button button1">Buy</button>
-            </div>
-            <div class="card">
-                <h2>The Brain of the Computer</h2>
-                <img src="cpu_coverpage.jpg" style="height:200px;width:200px">
-                <p>With any new PC you need a good CPU to make it all work. Come get yours here</p>
-                <button class="button button1">Buy</button>
-            </div>
-        </div>
-    </div>
-
+    <table>
+        <tr>
+            <th>Order Number</th>
+            <th>Type</th>
+            <th>Quantity</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <th>Total</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>$0.0</th>
+        </tr>
+    </table>
+    <form action="file:///C:/Users/Chase%20Rogers/OneDrive/Documents/GitHub/compe561WebProgram/payment.html">
+    	<input type="submit" value="Pay"/>
+    </form>
 </body>
 </html>
-
-
